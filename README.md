@@ -1,4 +1,4 @@
-# Markdown To Simple Html
+# Markdown To Simple HTML
 
 This is just a simple Ruby Gem for parsing any Markdown File to a Simple HTML FILE.
 
