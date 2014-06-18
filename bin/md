@@ -1,0 +1,18 @@
+#!/usr/bin/env ruby
+lib = File.expand_path('../lib', __FILE__)
+$LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
+require 'markdown_to_simple_html'
+
+puts "Please type your markdown file name:"
+
+filename = STDIN.gets.chomp()
+
+html_file = File.open("#{filename}.html", "w")
+
+markdown_parser = MarkdownToSimpleHtml::MarkdownParser.new(filename)
+
+html_file.write(markdown_parser.to_html)
+
+html_file.close()
+
+puts "Created Successfully!"
