@@ -1,6 +1,6 @@
 # Markdown To Simple HTML
 
-This is just a simple Ruby Gem for parsing any Markdown File to a Simple HTML FILE.
+This is just a simple Ruby Gem for parsing any Markdown File to a Simple HTML File.
 
 ## Installation
 
