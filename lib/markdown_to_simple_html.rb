@@ -7,7 +7,6 @@ module MarkdownToSimpleHtml
 		def initialize(filename)
 			@contents = IO.readlines("#{filename}.md").join
 			@parser = Redcarpet::Markdown.new(Redcarpet::Render::HTML, :autolink => true, :hard_wrap => true)
-
 		end
 
 		def to_html

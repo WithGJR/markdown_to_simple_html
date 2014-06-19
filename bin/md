@@ -16,3 +16,5 @@ html_file.write(markdown_parser.to_html)
 html_file.close()
 
 puts "Created Successfully!"
+
+system("open", "#{Dir.pwd}/#{filename}.html")

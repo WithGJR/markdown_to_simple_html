@@ -22,6 +22,10 @@ just type your markdown filename but no .md, for example(test.md), type:
 
     $ test
 
+and if your are using Mac OSX, then your default browser will be opened.
+
+Enjoy it!
+
 ## Contributing
 
 1. Fork it 
