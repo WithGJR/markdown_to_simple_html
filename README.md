@@ -14,7 +14,7 @@ Type this in your terminal:
 
     $ md
 
-and you will see a message like folloing:
+and you will see a message like following:
 
     $ Please type your markdown file name:
 
